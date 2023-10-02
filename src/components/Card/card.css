@@ -1,0 +1,67 @@
+.c {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 370px;
+    margin: 30px 30px;
+    width: 270px;
+    transition: transform 0.4s ease-in-out;
+}
+
+.c-img {
+    margin-bottom: 15px;
+    height: 350px;
+    width: 300px;
+}
+
+.c-img:hover {
+    transform: scale(1.05);
+}
+
+.c-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 0px;
+}
+
+.c-title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.price {
+    color: #f03c2bca;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.add-to-cart-btn {
+    background: #f12e1dca;
+    height: 50px;
+    width: 140px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    display: none;
+    padding: 5px 0px;
+}
+
+.c:hover .add-to-cart-btn {  
+    cursor: pointer;
+    display: inline-block;
+}
+
+.add-to-cart-btn:hover{
+    background-color: #f55c4eca;
+}
+
+@media screen and (max-width:880px) {
+    .c{
+        margin: 60px 0px;
+    }
+    
+}

@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sales{
+    height: 100vh;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.b1 {
+    width: 40%;
+    background-image: url("../../images/cta-1.jpg");
+    background-repeat: no-repeat;
+    margin-right: 20px;
+}
+
+.b2 {
+    width: 40%;
+    height: 300px;
+    background-image: url("../../images/cta-2.jpg");
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+
+.b-desc {
+    width: 60%;
+    color: white;
+    margin-left: 60px;
+    height: 65%;
+    margin-top: 10%;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 2px solid white;
+}
+
+.b-desc>h1 {
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.b-desc>p {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.b-desc>p:hover {
+    cursor: pointer;
+}
+
+.b-img {
+    width: 600px;
+}
+
+.service-list {
+    margin: 100px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.service-item {
+    list-style: none;
+}
+
+.card-icon {
+    border-radius: 50%;
+    border: 2px solid #FF6E61;
+    height: 90px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    width: 80px;
+    margin-right: 20px;
+    padding: 15px 15px;
+}
+
+.service-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-icon>img {
+    height: 50px;
+    width: 60px;
+}
+
+.service-card>card-title {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 5px;
+}
+
+.card-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #e23a2b;
+}
+
+.insta {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.insta-items{
+    position: relative;
+    width: 12.5%;
+}
+
+.insta-img {
+    width: 100%;
+    display: block;
+    transition: filter 0.3s ease;
+    position: relative;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    opacity:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease-out;
+    background: rgba(0, 0, 0, 0.496);
+    cursor: pointer;
+}
+
+.overlay:hover{
+    opacity: 1;
+}
+
+.overlay > ion-icon{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
+@media screen and (max-width:880px) {
+    .sales{
+        width: 100%;
+        width: 100%;
+        height: 160vh;
+    }
+
+    .banner{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .b1 , .b2{
+        width: 90%;
+        height: 250px;
+        margin: 40px 10px;
+        background-size:auto;
+        background-position: calc(50%);
+    }
+
+    .b1{
+        margin-top: 0px;
+    }
+
+    .b2{
+        margin-bottom: 20px;
+    }
+
+    .b-desc{
+        margin:0px 0px;
+        display: flex;
+        width: 100%;
+        padding: 0px 30px;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+    }
+
+    .service-list{
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 60px 0px;
+    }
+
+    .service-card{
+        margin: 15px 10px;
+    }
+
+    .service-card>card-title{
+        font-size: 25px;
+    }
+
+    .card-icon{
+        height: 70px;
+        width: 70px;
+    }
+
+    .card-icon>img{
+        height: 30px;
+        width: 50px;
+    }
+
+    .insta-items{
+        width: 33.3%;
+        margin: 20px 0px;
+    }
+
+    .insta-items:nth-child(-n+5){
+        display: none;
+    }
+}
