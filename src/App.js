@@ -1,4 +1,5 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 import Header from "./components/Header/Header"
 import Main from "./components/Main/Main"
 import BestSeller from './components/BestSeller/BestSeller';
@@ -8,13 +9,6 @@ import Sale from './components/Sale/Sale'
 function App() {
   return (
     <Router>
-        <Routes>
-          <Route path="/" element={<Header/>} />
-          <Route path="/main" element={<Main/>} />
-          <Route path="/bestseller" element={<BestSeller/>} />
-          <Route path="/sale" element={<Sale/>} />
-          <Route path="/contact" element={<Footer/>}/>
-        </Routes>
         <Header/>
         <Main/>
         <BestSeller/>

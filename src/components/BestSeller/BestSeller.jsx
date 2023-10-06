@@ -32,7 +32,7 @@ const BestSeller = () => {
     };
 
     return (
-        <div className='bs'>
+        <div className='bs' id="section-3">
             <p className="bs-title">Bestseller Products</p>
             <div className="brands">
                 {buttons.map((button) => (

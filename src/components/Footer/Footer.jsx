@@ -3,7 +3,7 @@ import "./footer.css"
 
 const Footer = () => {
   return (
-    <div className='f'>
+    <div className='f' id="section-5">
       <div className="f-head">
         <p className="f-title">
           <span style={{ fontSize: "57px", color: "#ff6e61ca", fontWeight: "600" }}>F</span>ootgen
