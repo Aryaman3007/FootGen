@@ -6,7 +6,7 @@ import C3 from "../../images/collection-3.jpg"
 
 const main = () => {
   return (
-    <div className="m" id="products">
+    <div className="m" id="section-2">
       <div class="hero">
         <div class="container">
 

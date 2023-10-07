@@ -47,23 +47,23 @@ const Header = () => {
         <ul className={isMobile ? "nav-links" : "navbar-list"}>
 
           <li className="navbar-item">
-            <Link to="home" activeClass="active" onClick={scrollToTop} smooth={true} spy={true} duration={100} className="navbar-link">HOME</Link>
+            <Link to="section-1" activeClass="active" onClick={scrollToTop} smooth={true} spy={true} duration={100} className="navbar-link">HOME</Link>
           </li>
 
           <li className="navbar-item">
-            <Link to='products' activeClass="active" smooth={true} spy={true} offset={650} duration={100} className="navbar-link">PRODUCTS</Link>
+            <Link to='section-2' activeClass="active" smooth={true} spy={true} offset={650} duration={100} className="navbar-link">PRODUCTS</Link>
           </li>
 
           <li className="navbar-item">
-            <Link to='shop' activeClass="active" smooth={true} spy={true} offset={-130} duration={100} className="navbar-link">SHOP</Link>
+            <Link to='section-3' activeClass="active" smooth={true} spy={true} offset={-130} duration={100} className="navbar-link">SHOP</Link>
           </li>
 
           <li className="navbar-item">
-            <Link to='sale' activeClass="active" smooth={true} spy={true} offset={-200} duration={100} className="navbar-link">SALE</Link>
+            <Link to='section-4' activeClass="active" smooth={true} spy={true} offset={-200} duration={100} className="navbar-link">SALE</Link>
           </li>
 
           <li className="navbar-item">
-            <Link to='contact' activeClass="active" smooth={true} spy={true} offset={250} duration={100} className="navbar-link">CONTACT</Link>
+            <Link to='section-5' activeClass="active" smooth={true} spy={true} offset={250} duration={100} className="navbar-link">CONTACT</Link>
           </li>
 
         </ul>

@@ -15,7 +15,7 @@ import I8 from "../../images/insta-8.jpg"
 
 const Sale = () => {
     return (
-        <div className="sales" id="sale">
+        <div className="sales" id="section-4">
             <div className="banner">
                 <div className="b1">
                     <div className="b-desc">
