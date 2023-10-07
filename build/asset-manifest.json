@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f84dda38.css",
+    "main.js": "/static/js/main.cc384349.js",
+    "static/js/496.73267a1e.chunk.js": "/static/js/496.73267a1e.chunk.js",
+    "static/media/hero banner.png": "/static/media/hero banner.1f073db6a8d419cf8d9d.png",
+    "static/media/product-4.jpg": "/static/media/product-4.de35341727f5fd19c3a7.jpg",
+    "static/media/footgen-logo.png": "/static/media/footgen-logo.175ef8f65c9de373971f.png",
+    "static/media/cta-2.jpg": "/static/media/cta-2.272b192e71ff25e945d2.jpg",
+    "static/media/cta-1.jpg": "/static/media/cta-1.dedc4f12757293e8d7b9.jpg",
+    "index.html": "/index.html",
+    "main.f84dda38.css.map": "/static/css/main.f84dda38.css.map",
+    "main.cc384349.js.map": "/static/js/main.cc384349.js.map",
+    "496.73267a1e.chunk.js.map": "/static/js/496.73267a1e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f84dda38.css",
+    "static/js/main.cc384349.js"
+  ]
+}
